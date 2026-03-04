@@ -515,6 +515,12 @@
   .contact-item:hover { border-color: var(--accent); color: var(--accent); transform: translateX(4px); }
 
   .contact-icon { font-size: 1rem; width: 20px; text-align: center; }
+  .contact-icon-img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
 
   .availability {
     display: inline-flex;
