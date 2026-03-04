@@ -25,7 +25,7 @@ Error generating stack: `+i.message+`
     <div class="hero-content">
       <div class="hero-tag">// Available for immediate start</div>
       <h1>Karthik<br/><span>Ashok</span></h1>
-      <p class="hero-sub">Junior Network Engineer & Cybersecurity Graduate with 2+ years in IT operations. MSc Cybersecurity (NCSC Certified) â€” building secure, resilient infrastructure from the ground up.</p>
+      <p class="hero-sub">Junior Network Engineer & Cybersecurity Graduate with 2+ years in IT operations. MSc Cybersecurity (NCSC Certified) - building secure, resilient infrastructure from the ground up.</p>
       <div class="hero-badges">
         <span class="badge">NOC Analyst</span>
         <span class="badge">IT Service Desk</span>
@@ -48,20 +48,20 @@ Error generating stack: `+i.message+`
           <div class="terminal-title">karthik@portfolio ~ %</div>
         </div>
         <div class="terminal-body">
-          <div class="t-line"><span class="t-prompt">â¯</span><span class="t-cmd">whoami</span></div>
-          <div class="t-out"><span class="t-val">Karthik Ashok</span> â€” Network Engineer</div>
+          <div class="t-line"><span class="t-prompt">></span><span class="t-cmd">whoami</span></div>
+          <div class="t-out"><span class="t-val">Karthik Ashok</span> - Network Engineer</div>
           <br/>
-          <div class="t-line"><span class="t-prompt">â¯</span><span class="t-cmd">cat profile.json</span></div>
+          <div class="t-line"><span class="t-prompt">></span><span class="t-cmd">cat profile.json</span></div>
           <div class="t-out">location: <span class="t-val">United Kingdom</span></div>
           <div class="t-out">education: <span class="t-purple">MSc Cybersecurity</span></div>
-          <div class="t-out">status: <span class="t-green">â— AVAILABLE</span></div>
+          <div class="t-out">status: <span class="t-green">AVAILABLE</span></div>
           <div class="t-out">sla_compliance: <span class="t-val">95%+</span></div>
           <div class="t-out">accuracy_rate: <span class="t-val">98%</span></div>
           <br/>
-          <div class="t-line"><span class="t-prompt">â¯</span><span class="t-cmd">ping linkedin.com</span></div>
-          <div class="t-out"><span class="t-green">64 bytes â€” open to opportunities</span></div>
+          <div class="t-line"><span class="t-prompt">></span><span class="t-cmd">ping linkedin.com</span></div>
+          <div class="t-out"><span class="t-green">64 bytes - open to opportunities</span></div>
           <br/>
-          <div class="t-line"><span class="t-prompt">â¯</span><span class="t-cmd">_</span><span class="cursor"></span></div>
+          <div class="t-line"><span class="t-prompt">></span><span class="t-cmd">_</span><span class="cursor"></span></div>
         </div>
       </div>
     </div>
@@ -102,9 +102,9 @@ Error generating stack: `+i.message+`
             <div class="tl-role">Network Support Engineer</div>
             <div class="tl-company">ITARMI</div>
           </div>
-          <span class="tl-date">Jan 2026 â€” Present</span>
+          <span class="tl-date">Jan 2026 - Present</span>
         </div>
-        <div class="tl-location">ðŸ“ United Kingdom</div>
+        <div class="tl-location">United Kingdom</div>
         <ul class="tl-bullets">
           <li>Monitor network performance dashboards and respond to alerts for LAN/WAN infrastructure</li>
           <li>Troubleshoot TCP/IP, DNS resolution failures, DHCP issues, and VPN client problems</li>
@@ -121,9 +121,9 @@ Error generating stack: `+i.message+`
             <div class="tl-role">Customer Service Assistant</div>
             <div class="tl-company">Post Office Ltd</div>
           </div>
-          <span class="tl-date">Jul 2025 â€” Feb 2026</span>
+          <span class="tl-date">Jul 2025 - Feb 2026</span>
         </div>
-        <div class="tl-location">ðŸ“ Plymouth, England</div>
+        <div class="tl-location">Plymouth, England</div>
         <ul class="tl-bullets">
           <li>Delivered customer service in a high-pressure retail environment handling transactions and enquiries</li>
           <li>Maintained cash handling accuracy and followed operational procedures with consistency</li>
@@ -134,14 +134,14 @@ Error generating stack: `+i.message+`
       <div class="tl-item">
         <div class="tl-header">
           <div>
-            <div class="tl-role">Associate Analyst â€” Advanced Process Services</div>
+            <div class="tl-role">Associate Analyst - Advanced Process Services</div>
             <div class="tl-company">Empulse Global</div>
           </div>
-          <span class="tl-date">Dec 2021 â€” Jan 2024</span>
+          <span class="tl-date">Dec 2021 - Jan 2024</span>
         </div>
-        <div class="tl-location">ðŸ“ India</div>
+        <div class="tl-location">India</div>
         <ul class="tl-bullets">
-          <li>Handled 50â€“70 tickets weekly via Jira, resolving client queries across finance and operations workflows</li>
+          <li>Handled 50-70 tickets weekly via Jira, resolving client queries across finance and operations workflows</li>
           <li>Maintained 98% accuracy rate on data processing tasks across a 24-month tenure</li>
           <li>Improved cross-team turnaround times by 15% through collaboration with Finance, Operations, and IT</li>
           <li>Trained 8 new associates on ticketing systems, workflows, and compliance procedures</li>
@@ -152,12 +152,12 @@ Error generating stack: `+i.message+`
       <div class="tl-item">
         <div class="tl-header">
           <div>
-            <div class="tl-role">Student Intern â€” IoT & Networking</div>
+            <div class="tl-role">Student Intern - IoT & Networking</div>
             <div class="tl-company">ATME College of Engineering</div>
           </div>
-          <span class="tl-date">Mar 2021 â€” Apr 2021</span>
+          <span class="tl-date">Mar 2021 - Apr 2021</span>
         </div>
-        <div class="tl-location">ðŸ“ Mysore, India</div>
+        <div class="tl-location">Mysore, India</div>
         <ul class="tl-bullets">
           <li>Assisted in IoT device programming using Python and Arduino for campus automation projects</li>
           <li>Supported network setup and configuration of lab equipment and testing infrastructure</li>
@@ -167,12 +167,12 @@ Error generating stack: `+i.message+`
       <div class="tl-item">
         <div class="tl-header">
           <div>
-            <div class="tl-role">Student Intern â€” Telecom Networking</div>
+            <div class="tl-role">Student Intern - Telecom Networking</div>
             <div class="tl-company">Bharat Sanchar Nigam Limited (BSNL)</div>
           </div>
           <span class="tl-date">Nov 2020</span>
         </div>
-        <div class="tl-location">ðŸ“ Mysore, India</div>
+        <div class="tl-location">Mysore, India</div>
         <ul class="tl-bullets">
           <li>Supported LAN setup, network configuration, and basic troubleshooting for telecoms infrastructure</li>
           <li>Gained exposure to enterprise network systems in a real-world telecommunications environment</li>
@@ -191,7 +191,7 @@ Error generating stack: `+i.message+`
 
     <div class="skills-grid">
       <div class="skill-card">
-        <div class="skill-card-title">ðŸŒ Networking</div>
+        <div class="skill-card-title">Networking</div>
         <div class="skill-tag-group">
           <span class="skill-tag">LAN / WAN</span>
           <span class="skill-tag">TCP/IP</span>
@@ -205,7 +205,7 @@ Error generating stack: `+i.message+`
       </div>
 
       <div class="skill-card">
-        <div class="skill-card-title">ðŸ”’ Cybersecurity</div>
+        <div class="skill-card-title">Cybersecurity</div>
         <div class="skill-tag-group">
           <span class="skill-tag">Threat Analysis</span>
           <span class="skill-tag">Incident Handling</span>
@@ -217,7 +217,7 @@ Error generating stack: `+i.message+`
       </div>
 
       <div class="skill-card">
-        <div class="skill-card-title">ðŸ’» Systems</div>
+        <div class="skill-card-title">Systems</div>
         <div class="skill-tag-group">
           <span class="skill-tag">Windows 10/11</span>
           <span class="skill-tag">Active Directory</span>
@@ -227,7 +227,7 @@ Error generating stack: `+i.message+`
       </div>
 
       <div class="skill-card">
-        <div class="skill-card-title">ðŸ›  Tools & Operations</div>
+        <div class="skill-card-title"> Tools & Operations</div>
         <div class="skill-tag-group">
           <span class="skill-tag">Jira</span>
           <span class="skill-tag">CRM / ERP</span>
@@ -241,7 +241,7 @@ Error generating stack: `+i.message+`
       </div>
 
       <div class="skill-card">
-        <div class="skill-card-title">ðŸ“‹ Service Desk</div>
+        <div class="skill-card-title">Service Desk</div>
         <div class="skill-tag-group">
           <span class="skill-tag">Incident Triage</span>
           <span class="skill-tag">Escalation Management</span>
@@ -252,10 +252,10 @@ Error generating stack: `+i.message+`
       </div>
 
       <div class="skill-card">
-        <div class="skill-card-title">ðŸ—£ Languages</div>
+        <div class="skill-card-title">Languages</div>
         <div class="skill-tag-group">
-          <span class="skill-tag">English â€” Full Professional</span>
-          <span class="skill-tag">Hindi â€” Professional Working</span>
+          <span class="skill-tag">English - Full Professional</span>
+          <span class="skill-tag">Hindi - Professional Working</span>
         </div>
       </div>
     </div>
@@ -269,28 +269,28 @@ Error generating stack: `+i.message+`
     <h2>Certifications</h2>
     <div class="cert-grid">
       <div class="cert-card">
-        <div class="cert-icon">ðŸ›¡ï¸</div>
+        <div class="cert-icon"></div>
         <div>
           <div class="cert-name">Cybersecurity Job Simulation</div>
           <div class="cert-org">PwC Switzerland</div>
         </div>
       </div>
       <div class="cert-card">
-        <div class="cert-icon">ðŸŒ</div>
+        <div class="cert-icon"></div>
         <div>
           <div class="cert-name">The Cybersecurity Threat Landscape</div>
           <div class="cert-org">ISC2</div>
         </div>
       </div>
       <div class="cert-card">
-        <div class="cert-icon">ðŸ”</div>
+        <div class="cert-icon"></div>
         <div>
           <div class="cert-name">Cybersecurity Analyst Job Simulation</div>
           <div class="cert-org">Tata Group</div>
         </div>
       </div>
       <div class="cert-card">
-        <div class="cert-icon">ðŸ“˜</div>
+        <div class="cert-icon"></div>
         <div>
           <div class="cert-name">Introduction to Cybersecurity</div>
           <div class="cert-org">ISC2 Candidate</div>
@@ -309,18 +309,18 @@ Error generating stack: `+i.message+`
       <div class="edu-card featured">
         <div class="edu-degree">MSc Cybersecurity</div>
         <div class="edu-school">University of Plymouth</div>
-        <div class="edu-date">January 2024 â€” 2025</div>
+        <div class="edu-date">January 2024 - 2025</div>
         <div class="edu-badge">NCSC Certified</div>
       </div>
       <div class="edu-card">
-        <div class="edu-degree">BE â€” Electronics & Communication</div>
+        <div class="edu-degree">BE - Electronics & Communication</div>
         <div class="edu-school">ATME College of Engineering, Mysuru</div>
-        <div class="edu-date">August 2016 â€” August 2021</div>
+        <div class="edu-date">August 2016 - August 2021</div>
       </div>
       <div class="edu-card">
         <div class="edu-degree">PUC (Pre-University)</div>
         <div class="edu-school">Vijaya Vitalla PU College, Mysore</div>
-        <div class="edu-date">June 2014 â€” May 2016</div>
+        <div class="edu-date">June 2014 - May 2016</div>
       </div>
     </div>
   </div>
@@ -337,10 +337,10 @@ Error generating stack: `+i.message+`
       <div class="skill-card" style="display:flex; flex-direction:column; gap:1rem;">
         <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem;">
           <div>
-            <div class="skill-card-title" style="margin-bottom:0.2rem;">ðŸ“¡ WiFi Speed Logger</div>
+            <div class="skill-card-title" style="margin-bottom:0.2rem;">WiFi Speed Logger</div>
             <div style="font-size:0.65rem; color:var(--muted);">Feb 2026</div>
           </div>
-          <a href="https://github.com/karthikah0112/wifi-speed-logger" target="_blank" class="btn btn-outline" style="font-size:0.62rem; padding:0.4rem 0.9rem;">GitHub â†—</a>
+          <a href="https://github.com/karthikah0112/wifi-speed-logger" target="_blank" class="btn btn-outline" style="font-size:0.62rem; padding:0.4rem 0.9rem;">GitHub -></a>
         </div>
         <p style="color:var(--muted); font-size:0.77rem; line-height:1.7;">
           Built a Python tool that runs automated internet speed tests at custom intervals, logs download/upload speeds and ping to CSV, and generates a self-contained HTML dashboard with interactive charts. Developed to monitor home network performance over time.
@@ -355,8 +355,8 @@ Error generating stack: `+i.message+`
 
       <div class="skill-card" style="display:flex; flex-direction:column; gap:1rem;">
         <div>
-          <div class="skill-card-title" style="margin-bottom:0.2rem;">ðŸŽ« IT Service Desk & Ticket Management</div>
-          <div style="font-size:0.65rem; color:var(--muted);">Jira Â· Empulse Global</div>
+          <div class="skill-card-title" style="margin-bottom:0.2rem;">IT Service Desk & Ticket Management</div>
+          <div style="font-size:0.65rem; color:var(--muted);">Jira | Empulse Global</div>
         </div>
         <p style="color:var(--muted); font-size:0.77rem; line-height:1.7;">
           Handled high-volume tickets using Jira across technical and operational workflows. Diagnosed issues, resolved user queries, and escalated incidents following defined SLAs. Created documentation and knowledge base updates to improve resolution efficiency and service quality.
@@ -371,8 +371,8 @@ Error generating stack: `+i.message+`
 
       <div class="skill-card" style="display:flex; flex-direction:column; gap:1rem;">
         <div>
-          <div class="skill-card-title" style="margin-bottom:0.2rem;">ðŸ–¥ï¸ Network Monitoring & Incident Handling</div>
-          <div style="font-size:0.65rem; color:var(--muted);">NOC Operations Â· ITARMI</div>
+          <div class="skill-card-title" style="margin-bottom:0.2rem;">Network Monitoring & Incident Handling</div>
+          <div style="font-size:0.65rem; color:var(--muted);">NOC Operations | ITARMI</div>
         </div>
         <p style="color:var(--muted); font-size:0.77rem; line-height:1.7;">
           Monitored LAN/WAN infrastructure using network dashboards and alerts. Investigated TCP/IP connectivity issues, DNS failures, DHCP problems, and VPN client issues. Managed incident tickets end-to-end, meeting 95%+ SLA targets, and escalated complex cases with detailed diagnostics to L3 engineers. Maintained accurate documentation for incidents and network configurations.
@@ -396,7 +396,7 @@ Error generating stack: `+i.message+`
       <div>
         <div class="availability">
           <span class="avail-dot"></span>
-          Available â€” Immediate Start
+          Available - Immediate Start
         </div>
         <div class="section-label">Let's Connect</div>
         <h2>Open to<br/>Opportunities</h2>
@@ -406,20 +406,20 @@ Error generating stack: `+i.message+`
       </div>
       <div class="contact-links">
         <a href="tel:07741950448" class="contact-item">
-          <span class="contact-icon">ðŸ“±</span>
+          <span class="contact-icon"></span>
           07741 950 448
         </a>
         <a href="javascript:void(0)" onclick="window.location='mai'+'lto:'+'karthikah999'+'@'+'gmail.com'" class="contact-item">
-          <span class="contact-icon">âœ‰ï¸</span>
+          <span class="contact-icon"></span>
           karthikah999 [at] gmail.com
         </a>
         <a href="https://www.linkedin.com/in/karthik-ashok-7b2260194?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bo98RHvfHS8OCgAVyDh1DJQ%3D%3D" target="_blank" rel="noopener noreferrer" class="contact-item">
-          <span class="contact-icon">ðŸ’¼</span>
+          <span class="contact-icon"></span>
           linkedin.com/in/karthikashok-7b2260194
         </a>
         <div class="contact-item" style="cursor:default;">
-          <span class="contact-icon">ðŸ“</span>
-          United Kingdom â€” Open to Relocation
+          <span class="contact-icon"></span>
+          United Kingdom - Open to Relocation
         </div>
       </div>
     </div>
@@ -427,8 +427,9 @@ Error generating stack: `+i.message+`
 </section>
 
 <footer>
-  <p>Â© 2025 Karthik Ashok â€” Built with purpose. Secured by design.</p>
+  <p>(c) 2025 Karthik Ashok - Built with purpose. Secured by design.</p>
 </footer>
 
 `;function Ff(){return Ta.useEffect(()=>{const T=new IntersectionObserver(v=>{v.forEach(ve=>{ve.isIntersecting&&(ve.target.style.opacity="1",ve.target.style.transform="none")})},{threshold:.05});return document.querySelectorAll(".fade-in").forEach(v=>{v.style.transition="opacity 0.7s ease, transform 0.7s ease",T.observe(v)}),()=>T.disconnect()},[]),Nl.createElement("div",{dangerouslySetInnerHTML:{__html:Of}})}Df.createRoot(document.getElementById("root")).render(Nl.createElement(Nl.StrictMode,null,Nl.createElement(Ff,null)));
+
 
