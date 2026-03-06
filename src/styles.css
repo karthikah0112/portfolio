@@ -91,7 +91,120 @@
   .nav-links a:hover { color: var(--accent); }
 
   /* SECTIONS */
-  section { position: relative; z-index: 1; }
+  section { position: relative; z-index: 1; overflow: hidden; }
+
+  #about {
+    background:
+      radial-gradient(circle at 15% 12%, rgba(0, 212, 255, 0.1), transparent 42%),
+      linear-gradient(180deg, rgba(6, 10, 20, 0.42), rgba(6, 10, 20, 0.12));
+  }
+
+  #experience,
+  #skills,
+  #certs,
+  #education,
+  #projects,
+  #contact {
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  #experience {
+    background:
+      radial-gradient(circle at 84% 16%, rgba(16, 185, 129, 0.16), transparent 36%),
+      linear-gradient(180deg, rgba(17, 24, 39, 0.93), rgba(10, 14, 26, 0.95));
+  }
+
+  #skills {
+    background:
+      radial-gradient(circle at 10% 85%, rgba(0, 212, 255, 0.15), transparent 38%),
+      linear-gradient(180deg, rgba(20, 27, 44, 0.94), rgba(10, 14, 26, 0.95));
+  }
+
+  #certs {
+    background:
+      radial-gradient(circle at 82% 78%, rgba(124, 58, 237, 0.15), transparent 40%),
+      linear-gradient(180deg, rgba(16, 20, 36, 0.9), rgba(8, 11, 21, 0.94));
+  }
+
+  #education {
+    background:
+      radial-gradient(circle at 20% 16%, rgba(56, 189, 248, 0.14), transparent 40%),
+      linear-gradient(180deg, rgba(19, 26, 41, 0.92), rgba(10, 14, 26, 0.95));
+  }
+
+  #projects {
+    background:
+      radial-gradient(circle at 78% 18%, rgba(245, 158, 11, 0.14), transparent 36%),
+      linear-gradient(180deg, rgba(20, 24, 38, 0.93), rgba(9, 12, 22, 0.95));
+  }
+
+  #contact {
+    background:
+      radial-gradient(circle at 12% 80%, rgba(16, 185, 129, 0.15), transparent 36%),
+      linear-gradient(180deg, rgba(17, 24, 39, 0.92), rgba(10, 14, 26, 0.95));
+  }
+
+  #experience::before,
+  #skills::before,
+  #certs::before,
+  #education::before,
+  #projects::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.28;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #experience::before {
+    background-image:
+      linear-gradient(165deg, rgba(0, 0, 0, 0.35), rgba(6, 10, 20, 0.6)),
+      url('../images/sections/data-center-row-of-computers-cshho0xkgwwe3tse.jpg');
+  }
+
+  #skills::before {
+    background-image:
+      linear-gradient(165deg, rgba(0, 0, 0, 0.38), rgba(6, 10, 20, 0.62)),
+      url('../images/sections/futuristic-server-room-illumination-jfvmdyna7davqsyn.jpg');
+  }
+
+  #certs::before {
+    background-image:
+      linear-gradient(165deg, rgba(0, 0, 0, 0.4), rgba(6, 10, 20, 0.64)),
+      url('../images/sections/fiber-optic-cablesand-network-connectivity-u2jaiks5pepptmco.jpg');
+  }
+
+  #education::before {
+    background-image:
+      linear-gradient(165deg, rgba(0, 0, 0, 0.42), rgba(6, 10, 20, 0.66)),
+      url('../images/sections/a-close-up-of-futuristic-fiber-optic-cables-emitting-glowing-digital-data-streams-1icactv62e7fd10w.jpg');
+  }
+
+  #projects::before {
+    background-image:
+      linear-gradient(165deg, rgba(0, 0, 0, 0.4), rgba(6, 10, 20, 0.65)),
+      url('../images/sections/global-network-connectivity-concept-sl46hgjnr5bi39cx.jpg');
+  }
+
+  #experience::after,
+  #skills::after,
+  #certs::after,
+  #education::after,
+  #projects::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.16;
+    background-image:
+      repeating-linear-gradient(90deg, rgba(0, 212, 255, 0.2) 0 2px, transparent 2px 24px),
+      linear-gradient(180deg, transparent, rgba(16, 185, 129, 0.2));
+  }
 
   /* HERO */
   #hero {
@@ -283,6 +396,8 @@
 
   /* SECTION STYLES */
   .section-wrap {
+    position: relative;
+    z-index: 1;
     max-width: 1200px;
     margin: 0 auto;
     padding: 5rem 3rem;
@@ -709,11 +824,21 @@
   .edu-card.featured { border-color: rgba(0,212,255,0.4); background: linear-gradient(135deg, var(--surface), rgba(0,212,255,0.04)); }
 
   .edu-degree {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
     font-family: 'Syne', 'Segoe UI', Arial, sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
     color: #fff;
     margin-bottom: 0.3rem;
+  }
+
+  .edu-cap {
+    color: var(--accent);
+    line-height: 1;
+    font-size: 0.95rem;
+    flex-shrink: 0;
   }
 
   .edu-school { font-size: 0.78rem; color: var(--accent); margin-bottom: 0.3rem; }
@@ -732,7 +857,7 @@
   }
 
   /* CONTACT */
-  #contact { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  #contact { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 
   .contact-grid {
     display: grid;
